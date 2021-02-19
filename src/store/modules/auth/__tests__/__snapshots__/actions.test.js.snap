@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`auth actions setEmail 1`] = `
+Object {
+  "payload": Object {
+    "email": "test@example.com",
+  },
+  "type": "@auth/SET_EMAIL",
+}
+`;
+
+exports[`auth actions setErrorEmail 1`] = `
+Object {
+  "payload": Object {
+    "message": "Some error message",
+  },
+  "type": "@auth/SET_ERROR_EMAIL",
+}
+`;
+
+exports[`auth actions setErrorPassword 1`] = `
+Object {
+  "payload": Object {
+    "message": "Some error message",
+  },
+  "type": "@auth/SET_ERROR_PASSWORD",
+}
+`;
+
+exports[`auth actions setPassword 1`] = `
+Object {
+  "payload": Object {
+    "password": "test@example.com",
+  },
+  "type": "@auth/SET_PASSWORD",
+}
+`;
+
+exports[`auth actions signInFailure 1`] = `
+Object {
+  "type": "@auth/SIGN_IN_FAILURE",
+}
+`;
+
+exports[`auth actions signInRequest 1`] = `
+Object {
+  "type": "@auth/SIGN_IN_REQUEST",
+}
+`;
+
+exports[`auth actions signInSuccess 1`] = `
+Object {
+  "payload": Object {
+    "token": "dwijwdji",
+  },
+  "type": "@auth/SIGN_IN_SUCCESS",
+}
+`;
